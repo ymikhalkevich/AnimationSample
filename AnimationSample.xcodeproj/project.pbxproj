@@ -39,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A32BB112126F5F300F1F13E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F93C838521233FF7009BE2A1 /* ViewController.swift */,
+				F93C839521236C90009BE2A1 /* ShakableTextField.swift */,
+				0AE54B022125F43D00834B6E /* TimerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A32BB122126F61F00F1F13E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93C838321233FF7009BE2A1 /* AppDelegate.swift */,
+				F93C838A21233FFB009BE2A1 /* Assets.xcassets */,
+				F93C838C21233FFB009BE2A1 /* LaunchScreen.storyboard */,
+				F93C838F21233FFB009BE2A1 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		0A32BB132126F63300F1F13E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F93C838721233FF7009BE2A1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F93C837721233FF6009BE2A1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +87,9 @@
 		F93C838221233FF6009BE2A1 /* AnimationSample */ = {
 			isa = PBXGroup;
 			children = (
-				F93C838321233FF7009BE2A1 /* AppDelegate.swift */,
-				F93C838521233FF7009BE2A1 /* ViewController.swift */,
-				F93C838721233FF7009BE2A1 /* Main.storyboard */,
-				F93C838A21233FFB009BE2A1 /* Assets.xcassets */,
-				F93C838C21233FFB009BE2A1 /* LaunchScreen.storyboard */,
-				F93C838F21233FFB009BE2A1 /* Info.plist */,
-				F93C839521236C90009BE2A1 /* ShakableTextField.swift */,
-				0AE54B022125F43D00834B6E /* TimerViewController.swift */,
+				0A32BB122126F61F00F1F13E /* Support Files */,
+				0A32BB132126F63300F1F13E /* View */,
+				0A32BB112126F5F300F1F13E /* Controllers */,
 			);
 			path = AnimationSample;
 			sourceTree = "<group>";
@@ -289,13 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VTRTN26K76;
-				INFOPLIST_FILE = AnimationSample/Info.plist;
+				DEVELOPMENT_TEAM = BJ7245G6JV;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimationSample/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Slava.AnimationSample;
+				PRODUCT_BUNDLE_IDENTIFIER = Yury.AnimationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,13 +331,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VTRTN26K76;
-				INFOPLIST_FILE = AnimationSample/Info.plist;
+				DEVELOPMENT_TEAM = BJ7245G6JV;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimationSample/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Slava.AnimationSample;
+				PRODUCT_BUNDLE_IDENTIFIER = Yury.AnimationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
